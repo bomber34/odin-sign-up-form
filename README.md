@@ -7,6 +7,7 @@ Used resources:
 
 Images:
 odin logo provided by the odin project https://www.theodinproject.com
+Grüne Blattpflanze in Nahaufnahme by Halie West https://unsplash.com/de/fotos/grune-blattpflanze-in-nahaufnahme-25xggax4bSA
 
 Font:
 Norse by Joël Carrouché: https://www.joelcarrouche.com/fonts/norse
