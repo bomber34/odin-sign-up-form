@@ -1,0 +1,24 @@
+
+.mainSignUpBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dbgA {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: black;
+}
+
+.dbgB {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: blue;
+}
+
+.dbgC {
+    border-style: double;
+    border-width: 5px;
+    border-color: green;
+}
