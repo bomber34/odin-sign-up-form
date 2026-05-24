@@ -25,8 +25,8 @@
         <!-- Sign Up Area 2/3 of width -->
          <div class="contentArea">
             <!-- Text Block -->
-            <div class="textArea">
-                <p>
+            <div id="textArea" class="lightgray">
+                <p class="boldText">
                     This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
                     Sign up <i>now</i> to get started.
 
@@ -34,38 +34,46 @@
                 </p>
             </div>
             <!-- Sign up form -->
-             <div>
-                <p>Let's do this.</p>
-                <div>
-                    <div>
-                        <label>First Name</label>
-                        <input id="first_name" type="text"/>
+             <div id="sign-up-form">
+                <div id="register-inputs">
+                    <div class="input-pair input-element">
+                        <p class="boldText">Let's do this!</p>
                     </div>
-                    <div>
-                        <label>Last Name</label>
-                        <input id="last_name" type="text"/>
+                    <div id="input-row-1" class="input-pair">
+                        <div class="input-element">
+                            <label>FIRST NAME</label>
+                            <input id="first_name" type="text"/>
+                        </div>
+                        <div class="input-element">
+                            <label>LAST NAME</label>
+                            <input id="last_name" type="text"/>
+                        </div>
                     </div>
-                    <div>
-                        <label>email</label>
-                        <input id="email" type="text"/>
+                    <div id="input-row-2" class="input-pair">
+                        <div class="input-element">
+                            <label>EMAIL</label>
+                            <input id="email" type="text"/>
+                        </div>
+                        <div class="input-element">
+                            <label>PHONE NUMBER</label>
+                            <input id="phone_number" type="text"/>
+                        </div>
                     </div>
-                    <div>
-                        <label>Phone Number</label>
-                        <input id="phone_number" type="text"/>
-                    </div>
-                    <div>
-                        <label>Password</label>
-                        <input id="password" type="password"/>
-                    </div>
-                    <div>
-                        <label>Confirm Password</label>
-                        <input id="confirm_password" type="password"/>
+                    <div id="input-row-3" class="input-pair">
+                        <div class="input-element">
+                            <label>PASSWORD</label>
+                            <input id="password" type="password"/>
+                        </div>
+                        <div class="input-element">
+                            <label>CONFIRM PASSWORD</label>
+                            <input id="confirm_password" type="password"/>
+                        </div>
                     </div>
                 </div>
              </div>
              <!-- Create Account Button and rest-->
-              <div>
-                <button>Create Account</button>
+              <div id="sign-in-area" class="lightgray">
+                <button id="createAccount">Create Account</button>
                 <p>Already have an Account? <a href="https://www.theodinproject.com">Log in</a></p>
               </div>
          </div>
