@@ -5,14 +5,13 @@
 
 body {
     height:100vh;
-    overflow: auto;
+    overflow: hidden;
     margin: 0px;
     padding: 0px;
 }
 
 .mainSignUpBlock {
     height: 100%;
-    overflow: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
