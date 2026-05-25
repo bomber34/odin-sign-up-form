@@ -57,26 +57,27 @@
                         </div>
                         <div class="input-element">
                             <label for="phone_number">PHONE NUMBER</label>
-                            <input id="phone_number" name="phone_number" type="tel" placeholder="+49123456789"/>
+                            <input id="phone_number" name="phone_number" type="tel" placeholder="+49123456789" pattern="\+{0,1}[0-9]+" minlength="3"/>
                         </div>
                     </div>
                     <div id="input-row-3" class="input-pair">
                         <div class="input-element">
                             <label for="password">PASSWORD*</label>
-                            <input id="password" name="password" type="password" required/>
+                            <input id="password" name="password" type="password" required minlength="8"/>
                         </div>
                         <div class="input-element">
                             <label for="confirm_password">CONFIRM PASSWORD*</label>
-                            <input id="confirm_password" type="password" required/>
+                            <input id="confirm_password" type="password" required minlength="8"/>
                         </div>
                     </div>
                 </div>
+                <p style="font-size: x-small; padding-left: 10px; color: gray;">* required field</p>
             </form>
              <!-- Create Account Button and rest-->
-              <div id="sign-in-area" class="lightgray">
-                <button id="createAccount">Create Account</button>
+            <div id="sign-in-area" class="lightgray">
+                <button id="createAccount" type="submit" form="sign-up-form">Create Account</button>
                 <p id="signInText">Already have an Account? <a href="https://www.theodinproject.com" id="logInLink">Log in</a></p>
-              </div>
+            </div>
          </div>
     </div>
 </body>
