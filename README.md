@@ -1,3 +1,5 @@
+Live Preview: https://bomber34.github.io/odin-sign-up-form/
+
 # odin-sign-up-form
 https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form
 
